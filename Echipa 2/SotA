@@ -1,0 +1,29 @@
+Re-Ranking the Image Search Results for Relevance and
+Diversity in MediaEval 2014 Challenge
+
+1. Introducere 
+	Multi utilizatori nu stiu detalii precise in momentul in care sunt in cautarea unor locatii . Ceea ce doreste aplicatia este sa confere un set de imagini cat mai precise si cat mai diversificate.In vederea obtinerii unei precizii si a unei diversitati al unui clasament de imagini pe baza caracteristicilor vizuale ale acestora si a metadatelor , se vor utiliza :
+•	media statistica in vedea obtinerii unei precizii cat mai bune ;
+•	 mixarea grupurilor (clusters)  cu scopul de a obtine o diversitate mai buna;
+
+2. Sistemul de gestiune a imaginilor
+	Componente sistemului pentru crearea clasamentului imaginilor :
+•	Prima componenta (componenta de notare a relevantei) creaza un model;
+•	Pe baza modelului a doua componenta estimeaza relevanta datelor de testare (optional folosind setul de credibilitate);
+•	A treia componenta creaza grupurile pe baza asemanarilor ;
+•	Componenta finala creaza clasamentul imaginilor	;
+
+
+
+3. Estimarea
+	Pentru fiecare pozitie din secventa initiala se va calcula probabilitatea unei imagini pentru a fi relevanta.Cand incepe initializarea , se atribuie fiecarei imagini un rezultat relevant .
+
+4. Gruparea
+	Datele contin descriptorii vizuali in fisiere de tip csv.Pentru inceput se aloca fiecarei imagini un vector.Dupa aceasta etapa , fiecare element este normalizat la aceeasi scara.Introducerea celei mai bune instante in gruparea potrivita se realizeaza cu ajutorul unui algoritm (k-means algorithm).
+
+5. Clasamentul
+	Acesta se realizeaza in 4 etape :
+•	Se aleg elementele din fiecare grupare in ordine descrescatoare si se selecteaza elementul ce detine cea mai mare probabilitate a relevantei.
+•	Se aleg primele elemente din fiecare grupare ca si canditat si se calculeaza masura estimativa F1
+•	Se selecteaza elementul cu masura estimativa cea mai mare si se inseara in clasament
+•	Se continua cu pasul 2 pana cand nu mai exista elemente in grupare
