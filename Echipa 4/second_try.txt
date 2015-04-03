@@ -49,8 +49,8 @@ TUW(Vienna University of Technology)
 		-scopul este acela de a creste procentajul imaginilor relevante
 		-abordari : Jain-inlatura toate imaginile care sunt la o distanta mai mare de 8km de punctul de interes POI si cu o descriere mai mare de 2000 de caractere
 	Re-ordonare: folosesc titlu, taguri si descrierea imaginilor
-		- pentru pre procesarea textului foloseste un dictionar greedy. La pasul urmator se formuleaza un query utilizand prima propozitie de pe Wikipedia care ajuta la dezambiguizarea locatiei
-	Clustering 3 metode : toate se bazeaza pe ideea crerii unui graf de similaritate in care fiecare "vertex" este o imagine pentru un punct de interes si fiecare muchie reprezinta similaritatea intre 2 imagii.
+		- pentru pre procesarea textului se foloseste un dictionar greedy. La pasul urmator se formuleaza un query utilizand prima propozitie de pe Wikipedia care ajuta la dezambiguizarea locatiei
+	Clustering 3 metode : toate se bazeaza pe ideea crearii unui graf de similaritate in care fiecare "vertex" este o imagine pentru un punct de interes si fiecare muchie reprezinta similaritatea intre 2 imagii.
 	Metis,Spectral,Merging
 
 Ghent University-iMinds at MediaEval 2014 Diverse Images: Adaptive Clustering with Deep Features
