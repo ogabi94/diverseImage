@@ -1,0 +1,65 @@
+--Petrut--
+
+-procesare text
+	-extract image metadata;
+-procesare vizuala
+	-data mining(machine learning);
+
+===http://ceur-ws.org/Vol-1263/===
+
+p431
+	-utilizare o baza de cunostinte e.g. YAGO, DBpedia
+		-se genereaza o multime de subinterogari pe baza BD, pe o tema anume
+		-fiecare subinterogere are ca prim element numele temei aleasa
+	-se executa o componenta responsabila cu executarea interogarilor in
+	 diferite motoare de cautare pentru imagini si se vor returna primele 100 sau 1000 de imagini,
+	 adica cele mai relevante
+	-estimarea parametrilor (un algoritm(tool kit) de data mining sau machine learning)
+	-notarea rezultatelor (un clasament)
+	-rularea unei componente de detectare a duplicatelor(gen SIFT)
+
+rudinac
+	-graph aproach (multimodal graph)
+	-se foloseste ca imput o geo-locatie a unei locatii de interes, dar se poate da ca
+	 data de intrare un eveniment/locatie
+	-se selecteaza de pe un site de file sharing, e.g. Flikr toate imaginile
+	 care este posibil sa fi fost facute in apropierea locatiei de interes pe o
+	 raza de un kilometru
+	-fotografiile pot fi filtrate si dupa numarul de view-uri 
+	-in vederea construirii grafului se vor folosi atat metadatele fotografiilor
+	 cat si fotografiile in sine
+	-graful folosit este neorientat si are urmatoarele componente:
+		-noduri imagine: pentru fiecare n imagini ale unei locatii se introduce un nod
+		-noduri caracteristica: pentru fiecare dintre cele  n imagini ale unei locatii se descriu
+		 informatii low-level despre fotografii
+		-noduri term: pentru fiecare dintre cele n imagini ale unei locatii se adauga metadatele imaginii
+		-noduri utilizator: se adauga un nod pentru fiecare user care a uploadat imaginea sau a comentat imaginea altcuiva
+		-muchie atribut: intre un nod imagine si noduri caracteristica, term si utilizator
+		-muchie de similaritate: reprezinta similaritatile dintre noduri de acelasi tip
+	-pentru obtinerea rezultatelor se va folosi algoritmul Random Walk with Restart(un algoritm folosit de Google
+	 pentru ratingul paginilor).
+	
+
+--Florin--
+
+
+TUW @ Retrieving Diverse Social Images Task 2014
+TUW(Vienna University of Technology)
+	Pre-Filtrare
+		-scopul este acela de a creste procentajul imaginilor relevante
+		-abordari : Jain-inlatura toate imaginile care sunt la o distanta mai mare de 8km de punctul de interes POI si cu o descriere mai mare de 2000 de caractere
+	Re-ordonare: folosesc titlu, taguri si descrierea imaginilor
+		- pentru pre procesarea textului foloseste un dictionar greedy. La pasul urmator se formuleaza un query utilizand prima propozitie de pe Wikipedia care ajuta la dezambiguizarea locatiei
+	Clustering 3 metode : toate se bazeaza pe ideea crerii unui graf de similaritate in care fiecare "vertex" este o imagine pentru un punct de interes si fiecare muchie reprezinta similaritatea intre 2 imagii.
+	Metis,Spectral,Merging
+
+Ghent University-iMinds at MediaEval 2014 Diverse Images: Adaptive Clustering with Deep Features
+	-S-au concentrat pe 2 parti: relevanta estimarii unei imagini cu o locatie specifica si estimarea similaritate intre o pereche de imagini 
+	Visual-only
+		S-a propus o abordare ierarhica bazata pe clustere pentru a stabili clasamentul unei imagini in conformitat cu relevanta lor si diversitate pentru o anumita locatie.
+	Textual only
+		Au modificat atat relevanta cat si diversitatea  cu urmatorul algoritml
+		Estimarea relevantei se foloseste metadata textului, se folosesc formule matematice si o functie flickr(x) care afiseaza clasamentul unei imagini...etc
+		Diversitatea estimarii
+			 estimarea diferetei semantice dintre dintre 2 imagini este bazata pe cantitatea de taguri impartasite. ceva formule matematice
+		
