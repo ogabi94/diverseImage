@@ -1,0 +1,63 @@
+Fișa cerințelor
+
+
+1. Descriere
+Aplicatia ofera utilizatorului posibilitatea de a vizualiza dintr-o gama larga de imagini , cu precizie si diversitate fotografiile pe care utilizatorul doreste sa le obtina.
+
+2. Domenii
+Se vor infatisa detaliile privind modul de lucru al aplicatiei , atat din punctul de vedere al utilizatorului , cat si din cel al detinatorului bazei de date.
+
+3. Acționări și interese 
+
+Client:  trimite serverului date pe care utilizatorul doreste sa le vizualizeze.
+Server:  trimite clientului datele pe care acesta  doreste sa primeasca. 
+ Administrator : gestianeaza informatiile din baza de date.
+Utilizator: prin intermediul clientului , solicita imagini in functie de criteriile proprii.
+
+4. Actori și Obiective
+Client:preluarea si afisarea imaginilor intr-un mod optim si estetic. 
+Server: selectarea si trimiterea  imaginilor intr-un mod optim. 
+Administrator: actualizarea si intretinerea bazei de date.
+Utilizator: vizualizarea imaginilor cerute , intr-un mod optim.
+
+
+
+
+5. Scenarii de utilizare 
+In continuare va fi prezentat modul in care aplicatia va accepta si va trimite informatii:
+  5.1. Clientul solicita o imagine  
+    5.1.1. Obiectiv 
+Clientul ofera utilizatorului intr-un ambient placut imaginea dorita.
+    5.1.2. Scenariu 
+      a)Clientul creaza un cont.
+      b)Clientul descrie imaginea dorita prin intermediul tagurilor .
+    5.1.3. Extensii 
+      In cazul in care se vor semnala exceptii , se vor utiliza mesaje corespunzatoare acestora.
+
+  5.2 Serverul primeste cererea
+    5.2.1. Obiectiv 
+      Serverul primește de la client tagurile trimise.Acesta va returna intr-un timp optim , datele cerute.
+    5.2.2. Scenariu 
+      a)Serverul parsează tag-urile primite de la client 
+      b)Serverul acceseaza baza de date si retrage datele corespunzatoare
+      c)Serverul trimite imaginile clientului.
+      5.2.3. Extensii 
+In cazul in care se vor semnala exceptii , se vor utiliza mesaje corespunzatoare acestora.
+
+  5.3. Prelucarea informatiilor
+    5.3.1. Obiectiv 
+      Clientul primeste raspunsul de la server si va afisa pentru utilizator data dorite.
+    5.3.2. Scenariu 
+      a) Clientul primeste informatiile trimise de server.
+      b)Clientul afiseaza pe ecran raspunsul primit.
+      5.3.3. Extensii
+ In cazul in care se vor semnala exceptii , se vor utiliza mesaje corespunzatoare acestora.
+
+  5.4. Administrare
+    5.4.1. Obiectiv
+Administratorul ofera optimizare si securitate elementelor din baza de date
+    5.4.2. Scenariu 
+      a)Administratorul se conecteaza la server printr-un id unic
+      b)Administratorul poate introduce / modifica / sterge imagini din baza de date 
+      c)Administratorul reactualizeaza baza de date 
+
