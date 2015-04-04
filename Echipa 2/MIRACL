@@ -1,0 +1,31 @@
+          MIRACL’s participation at MediaEval 2014 Retrieving Diverse Social Images Task
+                  http://ceur-ws.org/Vol-1263/mediaeval2014_submission_25.pdf
+
+SUMAR
+Este tratata problema diversificarii rezultatelor cautarilor de pe Flickr generate in urma interogarilor cu privire la locuri si repere geografice, folosind metoda retea neuronala(neuron network). Aceasta abordeaza doar partea vizuala a imaginilor si are ca obiectiv transformarea fiecarei imagini in modelul vector space.
+1.	Introducere:
+300 imagini
+30 locatii
+685 utilizatori
+Testul contine 123 locatii, Interogarea este numele locatiei.
+Participantilor li se ofera pentru fiecare locatie o lista de 300 de imagini, cotate, de pe Flickr.
+Pentru fiecare interogare, strategia propusa pentru diversitate se bazeaza pe urmatorii pasi:
+o	Recalcularea scorurilor listei folosint extragerea particularitatilor.
+o	Refacerea clasamentului.
+o	Folosirea rezultatului initial si final  pentru a construi modelul de gasire
+o	Calcularea cotelor imaginilor folosint noul model
+o	Reordonarea in ordine descrescatoare a imaginilor dupa cota lor
+
+2.	Abordari:
+
+Partea 1: 	 Extragerea trasaturilor imaginilor si stocarea lor in vectorul de trasaturi, utilizeaza trei descrptori: descriptorul culorii planului general (CLD), descriptorul histogramei marginilor (EHD) si descriptorul Scalable Color (SCD).
+	Procesarea interogarii extrage vectorul de trasaturi cu ajutorul formulei distantei euclidiene pentru compararea interogarii cu imaginile din baza de date. Dupa comparare se face un vector de scoruri pentru fiecare imagine. 
+
+Partea 2:	Avand trasaturle vizuale si vectorul de scoruri, se genereaza o matricea Vector Space Model.
+
+3.	Rezultate:
+Performanta abordarilor este calculate de:
+•	Precizie – masura care evalueaza numarul imaginilor relevante dintr-un top de 20 rezultate.
+•	Cluster Recall – evalueaza cate clustere diferite sunt reprezentate in top 20 rezultate.
+•	F1-  media armonica a celor doua rezultate precedente.
+
