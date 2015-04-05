@@ -1,0 +1,22 @@
+ Algoritmi de Clustering: În urma efectuării unei căutări, algoritmii de clustering vor decide dacă 
+respectivele rezultate vor lua fie decizia de afișare în ordine descrescătoare în funcție de relevanță a 
+rezultatelor, fie dacă aceste rezultate vor fi grupate în seturi. Numărul rezultatelor afișate diferă în 
+funcție de puterea de căutare a algoritmilor. Un set este compus din mai multe imagini care se aseamănă prin 
+numeroase aspecte (culori, forma obiectelor, intensitate luminoasă, etc). 4.1 Folding Se bazează pe faptul că 
+cele mai populare imagini sunt și cele mai reprezentative. Se pornește cu cea mai populară imagine și pe măsură
+ ce se înaintează în listă noile imagini sunt comparate cu precedentele pentru a găsi asemănări semnificative 
+pentru a forma clustere. Algoritmul are dezavantajul că pune accent pe viteză și nu pe acuritate. 4.2 Maxmin 
+Acest tip de algoritm utilizează distanțele modulare dintre clustere reprezentative pentru a determina dacă o 
+imagine este sau nu semnificativă căutării. Distanța modulară maximă este predefinită. Acest tip de algoritm 
+are marele dezavantaj al afișarii unei mulțimi de rezultate nedorite. 4.3 Selectare reciprocă Acest algoritm 
+utilizează imaginea curentă pentru a găsi următoarea cea mai semnificativă imagine. O imagine este aleasă în 
+momentul în care predecesorii săi sunt de acord că ea este cea mai reprezentativă imagine. Algoritmul are o 
+precizie destul de avansată însă are marele dezavantaj al timpului de căutare. 5. Rezultatele experimentului În 
+urma executării programului pe o serie de 8,5 milioane de imagini în vederea extragerii primelor 50 cele mai 
+semnificative, a fost constatat faptul că imaginile aveau o arie extrem de diversificată și de precisă în cazul
+ fiecărui algoritm. Mecanismul utilizat a fost următorul: se selectează primele 50 de rezultate în funcție de 
+topicul căutat și se decide câte clustere vor fi necesare. Fieacare imagine este asignată unui cluster 
+utilizând pe rând fiecare dintre cei 3 algoritmi descriși anterior. După ce toate imaginile au fost repartizate
+ se decide care este cea mai semnificativă imagine din fiecare cluster cu scopul de a o folosii ca 
+identificator pentru acel cluster. Experimentul a fost un succes și a arătat performanțele fiecărui algoritm în 
+funcție de timp și de acuritate și a fost constat faptul că viteza este mai importantă pentru utilizatori.
