@@ -1,0 +1,37 @@
+Fisa Cerintelor
+
+1)  Descriere
+	Proiectul isi propune sa ofere unui utilizator (caz concret: un turist) o lista de imagini reprezentative pentru cuvintele cheie folosite la cautare, cu precizarea ca lista de imagini trebuie sa fie cat mai diversificata (atat ca obiective surprinse, cat si din punctul de vedere al coloritului).
+
+2)	Domenii
+	Sunt descrise scenarii de utilizare specifice utilizatorului, administratorului si nucleului aplicatiei.
+	
+3)	Actionari/Interese
+	Utilizatorul urmareste sa obtina o varietate de imagini, reprezentative pentru cuvintele cheie folosite la cautare.
+	Nucleul aplicatiei este raspunzator pentru procesarea cererii, atat textuala, cat si vizuala, returnand o lista de imagini utilizatorului.
+	
+4)	Actori si obiecte	
+	Utilizatorul poate doar sa caute si sa vizualizeze imagini.
+	Nucleul aplicatiei raspunde interogarilor returnand imagini cat mai variate atat din punct de vedere al contextului (exemplu: diverse obiective dintr-un anumit oras specificat la interogare), cat si din punct de vedere al culorilor predominante.
+	
+5)	Scenarii de utilizare
+	
+
+	5.1.1)	Obiectiv/Context
+	Utilizatorul cauta fotografii pe baza unor cuvinte cheie si vizualizeaza rezultatele.
+	
+	5.1.2)	Scenariu/Pasi
+	1. Utilizatorul lanseaza in executie aplicatia
+	2. In campul destinat cautarii, utilizatorul va introduce cuvinte cheie sugestive pentru cautarea sa
+	3. Nucleul aplicatiei primeste informatiile, le proceseaza si intoarce ca raspuns o lista de imagini
+	4. Utilizatorul vizualizeaza imaginile rezultate in urma cautarii
+
+
+	5.2.1)	Obiectiv/Context
+	Nucleul Aplicatiei realizeaza procesarea datelor introduse de catre utilizator, procesarea textuala si vizuala a imaginilor, in urma carora va returna utilizatorului o lista de imagini.
+	5.2.2)	Scenariu/Pasi
+	1. Nucleul inregistreaza cererea si incepe procesarea ei in vedere returnarii unui raspuns utilizatorului
+	2. Initial are loc procesarea text; sunt extrase din setul de date imaginile ale caror etichete corespund intr-o oarecare masura cu datele introduse de utilizator la cautare
+	3. Apoi, are loc procesarea vizuala; lista de imagini obtinuta anterior este reordonata in functie relevanta si diversitate a culorilor
+	4. Lista reordonata in urma procesarii este trimisa utilizatorului spre a fi vizualizata
+	
