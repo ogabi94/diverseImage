@@ -1,0 +1,65 @@
+Fisa cerintelor
+
+1.Descriere
+	Aplicatia pune la dispozitia utilizatorului un motor de cautare pentru a cauta si vizualiza o gama diversificata de imagini relevante pentru o locatie in care se afla sau despre care doreste sa afle mai multe informatii.
+
+2.Domenii
+	Se vor descrie scenariile de utilizare atat al utlizatorului de a cauta informatiile , cat si al administratorului care intretine aplicatia.
+
+3.Actionari/Interese
+	Utilizatorul: sa aiba bine definite criteriile dupa care doreste sa efectueze cautarea, sa  obtina o diversitate de imagini relevante pentru cautarea sa.
+	Clientul:
+	Serverul
+	Administratorul: gestioneaza informatiile,se asigura de actualitatea si corectitudinea lor
+
+4. Actori si obiective
+Utilizatorul: vizualizarea imaginilor cautate
+Clientul: prezentarea imaginilor intr-un mod cat mai placut si mai eficient
+Serverul: selectarea imaginilor relevante cautarii pe care o realizeaza utilizatorul si trimiterea lor spre client
+Administratorul: intretinerea si actualizarea informatiilor din baza de date
+
+5. Scenarii de utilizare
+Urmatoarele cazuri descriu modul in care aplicatie primeste si trimite informatii:
+5.1 Utilizatorul cauta o imagine
+
+5.1.1 Obiectiv/Context
+	Utilizatorul deschide aplicatia si doreste sa caute un set de imagini
+5.1.2 Scenariu/Pasi
+	1. Utilizatorul foloseste bara de cautare din cadrul aplicatiei pentru a introduce un cuvant (sau un set de cuvinte) care descrie cat mai concret sfera de imagini pe care doreste sa le vizualizeze
+	2. Clientul primeste informatiile de la utilizator si le trimite serverului
+5.1.3 Extensii
+	2a. In cazul in care conexiunea dintre client si server este intrerupta sau nu poate fi realizata, se afiseaza un mesaj corespunzator utilizatorului
+			
+5.2 Serverul primeste si prelucreaza cererea clientului
+
+5.2.1 Obiectiv/Context
+	 Dupa ce a preluat informatiile de la utilizator, clientul trimite mai departe, catre server, aceste informatii pentru a obtine imaginile dorite
+5.2.2 Scenariu/Pasi
+	1. Serverul primeste cererea de la client.
+	2. Serverul parseaza informatiile ce contin tag-urile folosite de utilizator pentru a cauta imaginile
+	3. Se extrag informatiile necesare din baza de date
+	4. Se aplica algoritmi potriviti pentru diversificarea imaginilor, pentru relevanta lor si pentru scorul de incredere al utilizatorului
+	5. Se creeaza o serie de obiecte
+	6. Obiectele se trimit ca raspuns clientului
+5.2.3 Extensii
+	1a. Daca datele primite de la client nu sunt corecte sau conexiunea a esuat, se afiseaza un mesaj corespunzator utilizatorului
+
+5.3 Cientul primeste inapoi informatiile si le prezinta utilizatorului
+5.3.1 Obiective/Context
+	Clientul primeste inapoi de la server informatii si le ofera utilizatorului
+5.3.2 Scenariu/Pasi
+	1.Clientul primeste informatiile de la server
+	2.Clientul afiseaza utilizatorului rezultatele cautarii sale intr-un mod cat mai placut
+5.3.3 Extensii
+	1a.Daca datele primite de la server nu sunt corecte sau conexiunea a esuat, se afiseaza un mesaj corespunzator utilizatorului
+
+5.4 Administrarea bazei de date
+5.4.1 Obiective/Context
+	Administratorul se asigura ca toate informatiile din baza de date sunt corecte si actualizate
+5.4.2 Scenariu/Pasi
+	1.Administratorul se logheaza la baza de date pe baza unui username si a unei parole
+	2.Administratorul alege tabela ale carei informatii doreste sa le actualizeze/modifice/sterge/adauge
+	3.Administratorul aplica schimbarile si salveaza.
+	4.Administratorul se delogheaza din baza de date.
+5.4.3 Extensii
+	1a.Daca usernameul sau parola sunt incorecte, se afiseaza un mesaj corespunzator		
