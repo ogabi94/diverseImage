@@ -1,0 +1,4 @@
+Ariton Andrei : Diagrame Clase, Diagrame Pachete
+Bute Bogdan: Diagrame De Stare, Diagrame De Activitate
+Gusa Andrei:Diagrame Use-Case,Diagrame de Deployment
+Sturza Gabriel: Diagrame de Secventa, Diagrame de Colaborare.
