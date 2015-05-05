@@ -1,1 +1,4 @@
-Olaru Gabriel-Search.java(cauta toate fisierele xml care au legatura cu strig-ul cautat si le returneaza intr-un array)
+Olaru Gabriel - Search.java(cauta toate fisierele xml care au legatura cu string-ul cautat si le returneaza intr-un array)
+Tanase Bianca - ImageObj.java(creeaza obiecte ce stocheaza informatiile din XML despre imagini precum id,descriere,tag-uri,etc.)
+Grigorita Mihai - ImageParser.java(primeste un array de string-uri continand nume de fisiere xml,le parseaza si construieste un
+array de obiecte de tip ImageObj)
