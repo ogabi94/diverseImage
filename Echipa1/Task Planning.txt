@@ -1,0 +1,1 @@
+Olaru Gabriel-Search.java(cauta toate fisierele xml care au legatura cu strig-ul cautat si le returneaza intr-un array)
