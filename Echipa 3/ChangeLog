@@ -3,8 +3,10 @@ Creare: 29.04.2015 ,ora:09:26
 - sapt. 10
 
 [finished]
-*Pentru aceasta saptamana am primit de la echipa formata din Ariton Andrei,Bute Bogdan,Sturza Gabriel si Gusa Andrei un task care presupunea redimensiuonare imaginilor.Taskul a fost terminat cu succes.
+*Pentru aceasta saptamana am primit de la echipa formata din Ariton Andrei,Bute Bogdan,Sturza Gabriel si Gusa Andrei
+  un task care presupunea redimensiuonare imaginilor.Taskul a fost terminat cu succes.
 
 [in progress]:
   - creare nou filtru : color histogram ( http://en.wikipedia.org/wiki/Color_histogram )
-  * filtru se aplica peste imagini, cu scopul de a elimina duplicatele (sau imaginile care au continut foarte similar cu precedentele)
+  * filtru se aplica peste imagini, cu scopul de a elimina duplicatele (sau imaginile care au continut
+  foarte similar cu precedentele); filtrul primeste imaginea raw si exporta histograma
