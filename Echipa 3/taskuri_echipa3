@@ -1,0 +1,20 @@
+
+Scopul Echipei 3 in cadrul proiectului :
+
+  - procesarea imaginilor: implementarea algoritmilor de extragere a informatiilor/proprietatilor din imagini
+  
+
+
+
+
+Functionalitati:
+
+  - redimensionarea imaginilor  [done]
+  - color histogram             [in progress]
+  
+  
+  
+  
+Referinte procesare imagini:
+
+  - http://www.quora.com/What-is-the-algorithm-used-by-Google-Search-by-Image-1
