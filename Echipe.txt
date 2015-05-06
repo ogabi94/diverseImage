@@ -10,7 +10,7 @@ Bute Bogdan
 Gusa Andrei
 Sturza Gabriel
 
-Echipa 3
+Echipa 3  - procesare imagini; extragere proprietati
 Buzemurga Mihaela
 Luceac Madalina
 Stefanuca Ionel
