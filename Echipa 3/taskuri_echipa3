@@ -9,8 +9,10 @@ Scopul Echipei 3 in cadrul proiectului :
 
 Functionalitati:
 
-  - redimensionarea imaginilor  [done]
-  - color histogram             [in progress]
+  - redimensionarea imaginilor               [done]
+  - tipul imaginii(gif,jpeg,ect)             [done]
+  - dimensiunile imaginii(lungime ,inaltime) [done]
+  - color histogram                          [in progress]
   
   
   
