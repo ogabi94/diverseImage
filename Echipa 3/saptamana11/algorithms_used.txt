@@ -1,0 +1,11 @@
+Algorithms :
+
+  - color naming histogram  - files with code CN
+    used for filtering image with the same, or a similar color profile
+    
+  - histogram of oriented gradients - files with code HOG
+    used for object detection capabilities: filtering out images with same object/artefacts present inside
+    
+  - color moments - files with code CM
+    used for comparing images based on color; regularly used in image retrieval systems
+      ( according to http://en.wikipedia.org/wiki/Wikipedia:Color_moments );
