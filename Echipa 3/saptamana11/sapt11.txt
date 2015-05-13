@@ -1,0 +1,280 @@
+   NaiveSimilarityFinder.java
+   1 /*
+   2  * Part of the Java Image Processing Cookbook, please see
+   3  * http://www.lac.inpe.br/~rafael.santos/JIPCookbook.jsp
+   4  * for information on usage and distribution.
+   5  * Rafael Santos (rafael.santos@lac.inpe.br)
+   6  */
+   7 package howto.compare;
+   8  
+   9 import java.awt.BorderLayout;
+  10 import java.awt.Color;
+  11 import java.awt.Container;
+  12 import java.awt.Font;
+  13 import java.awt.GridLayout;
+  14 import java.awt.image.RenderedImage;
+  15 import java.awt.image.renderable.ParameterBlock;
+  16 import java.io.File;
+  17 import java.io.IOException;
+  18  
+  19 import javax.imageio.ImageIO;
+  20 import javax.media.jai.InterpolationNearest; 
+  21 import javax.media.jai.JAI;
+  22 import javax.media.jai.iterator.RandomIter;
+  23 import javax.media.jai.iterator.RandomIterFactory;
+  24 import javax.swing.JFileChooser;
+  25 import javax.swing.JFrame;
+  26 import javax.swing.JLabel;
+  27 import javax.swing.JOptionPane;
+  28 import javax.swing.JPanel;
+  29 import javax.swing.JScrollPane;
+  30  
+  31 import com.sun.media.jai.widget.DisplayJAI;
+  32 /**
+  33  * This class uses a very simple, naive similarity algorithm to compare an image
+  34  * with all others in the same directory.
+  35  */
+  36 public class NaiveSimilarityFinder extends JFrame
+  37   {
+  38   // The reference image "signature" (25 representative pixels, each in R,G,B).
+  39   // We use instances of Color to make things simpler.
+  40   private Color[][] signature;
+  41   // The base size of the images.
+  42   private static final int baseSize = 300;
+  43   // Where are all the files?
+  44   private static final String basePath = 
+  45     "/home/rafael/Pesquisa/ImageSimilarity";
+  46   
+  47  /*
+  48   * The constructor, which creates the GUI and start the image processing task.
+  49   */
+  50   public NaiveSimilarityFinder(File reference) throws IOException
+  51     {
+  52     // Create the GUI
+  53     super("Naive Similarity Finder");
+  54     Container cp = getContentPane();
+  55     cp.setLayout(new BorderLayout());
+  56     // Put the reference, scaled, in the left part of the UI.
+  57     RenderedImage ref = rescale(ImageIO.read(reference));
+  58     cp.add(new DisplayJAI(ref), BorderLayout.WEST);
+  59     // Calculate the signature vector for the reference.
+  60     signature = calcSignature(ref);
+  61     // Now we need a component to store X images in a stack, where X is the
+  62     // number of images in the same directory as the original one.
+  63     File[] others = getOtherImageFiles(reference);
+  64     JPanel otherPanel = new JPanel(new GridLayout(others.length, 2));
+  65     cp.add(new JScrollPane(otherPanel), BorderLayout.CENTER);
+  66     // For each image, calculate its signature and its distance from the
+  67     // reference signature.
+  68     RenderedImage[] rothers = new RenderedImage[others.length];
+  69     double[] distances = new double[others.length];
+  70     for (int o = 0; o < others.length; o++)
+  71       {
+  72       rothers[o] = rescale(ImageIO.read(others[o]));
+  73       distances[o] = calcDistance(rothers[o]);
+  74       }
+  75     // Sort those vectors *together*.
+  76     for (int p1 = 0; p1 < others.length - 1; p1++)
+  77       for (int p2 = p1 + 1; p2 < others.length; p2++)
+  78         {
+  79         if (distances[p1] > distances[p2])
+  80           {
+  81           double tempDist = distances[p1];
+  82           distances[p1] = distances[p2];
+  83           distances[p2] = tempDist;
+  84           RenderedImage tempR = rothers[p1];
+  85           rothers[p1] = rothers[p2];
+  86           rothers[p2] = tempR;
+  87           File tempF = others[p1];
+  88           others[p1] = others[p2];
+  89           others[p2] = tempF;
+  90           }
+  91         }
+  92     // Add them to the UI.
+  93     for (int o = 0; o < others.length; o++)
+  94       {
+  95       otherPanel.add(new DisplayJAI(rothers[o]));
+  96       JLabel ldist = new JLabel("<html>" + others[o].getName() + "<br>"
+  97           + String.format("% 13.3f", distances[o]) + "</html>");
+  98       ldist.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 36));
+  99       System.out.printf("<td class=\"simpletable legend\"> "+
+ 100           "<img src=\"MiscResources/ImageSimilarity/icons/miniicon_%s\" "+
+ 101           "alt=\"Similarity result\"><br>% 13.3f</td>\n", others[o].getName(),distances[o]);
+ 102       otherPanel.add(ldist);
+ 103       }
+ 104     // More GUI details.
+ 105     pack();
+ 106     setVisible(true);
+ 107     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ 108     }
+ 109  
+ 110  /*
+ 111   * This method rescales an image to 300,300 pixels using the JAI scale
+ 112   * operator.
+ 113   */
+ 114   private RenderedImage rescale(RenderedImage i)
+ 115     {
+ 116     float scaleW = ((float) baseSize) / i.getWidth();
+ 117     float scaleH = ((float) baseSize) / i.getHeight();
+ 118     // Scales the original image
+ 119     ParameterBlock pb = new ParameterBlock();
+ 120     pb.addSource(i);
+ 121     pb.add(scaleW);
+ 122     pb.add(scaleH);
+ 123     pb.add(0.0F);
+ 124     pb.add(0.0F);
+ 125     pb.add(new InterpolationNearest());
+ 126     // Creates a new, scaled image and uses it on the DisplayJAI component
+ 127     return JAI.create("scale", pb);
+ 128     }
+ 129   
+ 130  /*
+ 131   * This method calculates and returns signature vectors for the input image.
+ 132   */
+ 133   private Color[][] calcSignature(RenderedImage i)
+ 134     {
+ 135     // Get memory for the signature.
+ 136     Color[][] sig = new Color[5][5];
+ 137     // For each of the 25 signature values average the pixels around it.
+ 138     // Note that the coordinate of the central pixel is in proportions.
+ 139     float[] prop = new float[]
+ 140       {1f / 10f, 3f / 10f, 5f / 10f, 7f / 10f, 9f / 10f};
+ 141     for (int x = 0; x < 5; x++)
+ 142       for (int y = 0; y < 5; y++)
+ 143         sig[x][y] = averageAround(i, prop[x], prop[y]);
+ 144     return sig;
+ 145     }
+ 146  
+ 147  /*
+ 148   * This method averages the pixel values around a central point and return the
+ 149   * average as an instance of Color. The point coordinates are proportional to
+ 150   * the image.
+ 151   */
+ 152   private Color averageAround(RenderedImage i, double px, double py)
+ 153     {
+ 154     // Get an iterator for the image.
+ 155     RandomIter iterator = RandomIterFactory.create(i, null);
+ 156     // Get memory for a pixel and for the accumulator.
+ 157     double[] pixel = new double[3];
+ 158     double[] accum = new double[3];
+ 159     // The size of the sampling area.
+ 160     int sampleSize = 15;
+ 161     int numPixels = 0;
+ 162     // Sample the pixels.
+ 163     for (double x = px * baseSize - sampleSize; x < px * baseSize + sampleSize; x++)
+ 164       {
+ 165       for (double y = py * baseSize - sampleSize; y < py * baseSize + sampleSize; y++)
+ 166         {
+ 167         iterator.getPixel((int) x, (int) y, pixel);
+ 168         accum[0] += pixel[0];
+ 169         accum[1] += pixel[1];
+ 170         accum[2] += pixel[2];
+ 171         numPixels++;
+ 172         }
+ 173       }
+ 174     // Average the accumulated values.
+ 175     accum[0] /= numPixels;
+ 176     accum[1] /= numPixels;
+ 177     accum[2] /= numPixels;
+ 178     return new Color((int) accum[0], (int) accum[1], (int) accum[2]);
+ 179     }
+ 180  
+ 181  /*
+ 182   * This method calculates the distance between the signatures of an image and
+ 183   * the reference one. The signatures for the image passed as the parameter are
+ 184   * calculated inside the method.
+ 185   */
+ 186   private double calcDistance(RenderedImage other)
+ 187     {
+ 188     // Calculate the signature for that image.
+ 189     Color[][] sigOther = calcSignature(other);
+ 190     // There are several ways to calculate distances between two vectors,
+ 191     // we will calculate the sum of the distances between the RGB values of
+ 192     // pixels in the same positions.
+ 193     double dist = 0;
+ 194     for (int x = 0; x < 5; x++)
+ 195       for (int y = 0; y < 5; y++)
+ 196         {
+ 197         int r1 = signature[x][y].getRed();
+ 198         int g1 = signature[x][y].getGreen();
+ 199         int b1 = signature[x][y].getBlue();
+ 200         int r2 = sigOther[x][y].getRed();
+ 201         int g2 = sigOther[x][y].getGreen();
+ 202         int b2 = sigOther[x][y].getBlue();
+ 203         double tempDist = Math.sqrt((r1 - r2) * (r1 - r2) + (g1 - g2)
+ 204             * (g1 - g2) + (b1 - b2) * (b1 - b2));
+ 205         dist += tempDist;
+ 206         }
+ 207     return dist;
+ 208     }
+ 209  
+ 210  /*
+ 211   * This method get all image files in the same directory as the reference.
+ 212   * Just for kicks include also the reference image.
+ 213   */
+ 214   private File[] getOtherImageFiles(File reference)
+ 215     {
+ 216     File dir = new File(reference.getParent());
+ 217     // List all the image files in that directory.
+ 218     File[] others = dir.listFiles(new JPEGImageFileFilter());
+ 219     return others;
+ 220     }
+ 221  
+ 222  /*
+ 223   * The entry point for the application, which opens a file with an image that
+ 224   * will be used as reference and starts the application.
+ 225   */
+ 226   public static void main(String[] args) throws IOException
+ 227     {
+ 228     JFileChooser fc = new JFileChooser(basePath);
+ 229     fc.setFileFilter(new JPEGImageFileFilter());
+ 230     int res = fc.showOpenDialog(null);
+ 231     // We have an image!
+ 232     if (res == JFileChooser.APPROVE_OPTION)
+ 233       {
+ 234       File file = fc.getSelectedFile();
+ 235       new NaiveSimilarityFinder(file);
+ 236       }
+ 237     // Oops!
+ 238     else
+ 239       {
+ 240       JOptionPane.showMessageDialog(null,
+ 241           "You must select one image to be the reference.", "Aborting...",
+ 242           JOptionPane.WARNING_MESSAGE);
+ 243       }
+ 244     }
+ 245   
+ 246   }
+ 
+ 
+ JPEGImageFileFilter.java
+   1 /*
+   2  * Part of the Java Image Processing Cookbook, please see
+   3  * http://www.lac.inpe.br/~rafael.santos/JIPCookbook.jsp
+   4  * for information on usage and distribution.
+   5  * Rafael Santos (rafael.santos@lac.inpe.br)
+   6  */
+   7 package howto.compare;
+   8  
+   9 import java.io.File;
+  10  
+  11 import javax.swing.filechooser.FileFilter;
+  12  
+  13 /*
+  14  * This class implements a generic file name filter that allows the listing/selection
+  15  * of JPEG files.
+  16  */
+  17 public class JPEGImageFileFilter extends FileFilter implements java.io.FileFilter
+  18   {
+  19   public boolean accept(File f)
+  20     {
+  21     if (f.getName().toLowerCase().endsWith(".jpeg")) return true;
+  22     if (f.getName().toLowerCase().endsWith(".jpg")) return true;
+  23     return false;
+  24     }
+  25   public String getDescription()
+  26     {
+  27     return "JPEG files";
+  28     }
+  29  
+  30   }
