@@ -1,10 +1,23 @@
 Creare: 29.04.2015 ,ora:09:26
 
-- sapt. 10
+- sapt. 10 / 11
 
 [finished]
-*Pentru aceasta saptamana am primit de la echipa formata din Ariton Andrei,Bute Bogdan,Sturza Gabriel si Gusa Andrei un task care presupunea redimensiuonare imaginilor.Taskul a fost terminat cu succes.
+* Pentru aceasta saptamana am primit de la echipa formata din Ariton Andrei,Bute Bogdan,Sturza Gabriel si Gusa Andrei un task care presupunea redimensiuonare imaginilor.Taskul a fost terminat cu succes.
+* creare nou filtru : color histogram ( http://en.wikipedia.org/wiki/Color_histogram )
+
+
 
 [in progress]:
-  - creare nou filtru : color histogram ( http://en.wikipedia.org/wiki/Color_histogram )
-  * filtru se aplica peste imagini, cu scopul de a elimina duplicatele (sau imaginile care au continut foarte similar cu precedentele)
+  
+  - filtru se aplica peste imagini, cu scopul de a elimina duplicatele (sau imaginile care au continut foarte similar cu precedentele)
+  - datele se regasesc preprocesate sub forma de .csv; multipli algoritmi : Color Histogram, Color Moments,
+    Histogram of Oriented Gradients, etc.
+    
+To be done :
+
+  - functiile caracteristice pentru CN/CM/HOG/etc. de calcula a distantei specifice intre 2 obiecte(imagini)
+  
+  - functie suport pentru calibrare: se aplica functiile de mai sus peste tot DEV-SET-ul cu scopul de a obtine limitele minime
+    si maxime peste domeniile masurate
+    
