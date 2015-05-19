@@ -1,0 +1,10 @@
+1,architectural details
+2,creative views
+3,front view close
+4,winter view
+5,view between buildings
+6,night view front
+7,partial view
+8,side view
+9,obstructed view
+10,night side view

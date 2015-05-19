@@ -1,0 +1,15 @@
+1,black and white
+2,creative views
+3,distant view from the field
+4,peyage details
+5,perspective from the water
+6,view from the road towards the  bridge
+7,intersection
+8,view from the entrance to the bridge
+9,view from the bridge
+10,details
+11,very distant view
+12,view from the car
+13,side view
+14,whole view from distance
+15,view from the bridge towards water

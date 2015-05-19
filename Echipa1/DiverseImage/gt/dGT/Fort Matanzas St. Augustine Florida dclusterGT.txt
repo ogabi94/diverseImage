@@ -1,0 +1,13 @@
+1,whole view 
+2,far view 
+3,creative view 
+4,details 
+5,view from behind 
+6,view from the fort 
+7,partial view 
+8,on top of the fort 
+9,close up
+10,view from above 
+11,tower
+12,cannon detail
+13,walls

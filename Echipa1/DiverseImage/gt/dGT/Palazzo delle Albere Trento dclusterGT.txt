@@ -1,0 +1,11 @@
+1,black and white
+2,map
+3,shadows
+4,night view
+5,entrance view in front
+6,painting
+7,corner view
+8,other
+9,view from the air
+10,side view
+11,partial view

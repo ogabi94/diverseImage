@@ -1,0 +1,16 @@
+1,panoramic of the castle
+2,aerial view 
+3,map of underground tunnels 
+4,tunnels 
+5,creative view 
+6,close view 
+7,on the way to the castle
+8,obstructed view
+9,on top of the castle
+10,view from the castle
+11,view of upper parts 
+12,details
+13,close up
+14,inside view 
+15,perspective
+16,tower

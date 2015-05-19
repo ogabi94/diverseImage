@@ -1,0 +1,11 @@
+1,front view
+2,side view 
+3,obstructed view 
+4,night view 
+5,tower of capitol
+6,inside view 
+7,partial view 
+8,details 
+9,creative outside view 
+10,old inside view 
+11,front distant view

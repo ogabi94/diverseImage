@@ -1,0 +1,17 @@
+1,terracotta army head detail
+2,building
+3,terracotta army legion
+4,chariot
+5,terracotta army small groups
+6,drawings
+7,archaeological site
+8,men and horse
+9,details
+10,perspective on the site
+11,horses
+12,building 2
+13,creative views
+14,near the troups
+15,park
+16,gate
+17,other

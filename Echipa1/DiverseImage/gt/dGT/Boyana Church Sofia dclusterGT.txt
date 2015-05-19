@@ -1,0 +1,9 @@
+1,partial view 
+2,side view 
+3,entrances to church
+4,inside view 
+5,creative whole view 
+6,yard 
+7,close up
+8,entrance to courtyard 
+9,entrance close

@@ -1,0 +1,7 @@
+1,front view 
+2,side view 
+3,obstructed view 
+4,details 
+5,entrance
+6,tower of church
+7,top

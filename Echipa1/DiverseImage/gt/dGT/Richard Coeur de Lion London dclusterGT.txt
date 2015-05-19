@@ -1,0 +1,13 @@
+1,metal plate sculpture
+2,corner view
+3,side view
+4,creative views
+5,front view
+6,view with the palace
+7,restoration details
+8,old blak and white
+9,horse details
+10,head details
+11,view from car
+12,scaffold
+13,base plate

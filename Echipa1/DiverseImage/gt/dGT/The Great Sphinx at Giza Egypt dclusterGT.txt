@@ -1,0 +1,11 @@
+1,perspective view of the site
+2,creative views
+3,old pictures
+4,night view of the site
+5,front view
+6,head view
+7,front distant view
+8,crowds in front
+9,corner view
+10,head detail
+11,view of the pyramid

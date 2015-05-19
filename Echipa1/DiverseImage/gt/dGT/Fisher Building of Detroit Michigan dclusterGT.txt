@@ -1,0 +1,7 @@
+1,far view 
+2,close view 
+3,inside view 
+4,details 
+5,creative view 
+6,night view 
+7,view from the building

@@ -1,0 +1,10 @@
+1,the smaller "giant sundial"
+2,the bigger "giant sundial" 
+3,partial view 
+4,other devices 
+5,far view 
+6,Jai Prakash Yantra
+7,details 
+8,the heart shaped device
+9,creative view 
+10,close up

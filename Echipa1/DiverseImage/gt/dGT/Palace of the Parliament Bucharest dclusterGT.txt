@@ -1,0 +1,16 @@
+1,chandelier detail
+2,night view front
+3,night corner view 
+4,creative views
+5,paintings
+6,front view daylight
+7,winter view
+8,inside rooms
+9,night distance shot
+10,view from balcony
+11,details
+12,partial view
+13,sunset view
+14,corner view daylight
+15,other views
+16,distant shot

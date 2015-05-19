@@ -1,0 +1,9 @@
+1,whole view
+2,far view
+3,walls with windows and doors
+4,ruins
+5,columns
+6,perspective
+7,brick blocks
+8,entrance
+9,partial view

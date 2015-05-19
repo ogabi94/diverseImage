@@ -1,0 +1,9 @@
+1,night view
+2,building details
+3,red-brown walls
+4,cupola
+5,outside tents
+6,lion shaped water source
+7,arcades
+8,interior
+9,gate

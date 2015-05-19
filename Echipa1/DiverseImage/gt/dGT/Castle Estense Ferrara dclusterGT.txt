@@ -1,0 +1,20 @@
+1,partial view 
+2,creative view 
+3,black and white 
+4,evening view 
+5,night view 
+6,corridors of the castle
+7,bridges
+8,close up
+9,upper partial view 
+10,inside courtyard 
+11,whole view 
+12,upper view 
+13,inside view 
+14,garden of oranges 
+15,paintings 
+16,coats of Arms Room
+17,inside details 
+18,outside details 
+19,close up
+20,inside objects

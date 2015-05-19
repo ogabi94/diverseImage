@@ -1,0 +1,9 @@
+1,whole view 
+2,arcades 
+3,details 
+4,upper part
+5,obstructed view 
+6,far view
+7,creative view 
+8,black and white
+9,sculpture details

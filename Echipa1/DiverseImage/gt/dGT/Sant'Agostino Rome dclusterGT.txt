@@ -1,0 +1,10 @@
+1,paintings
+2,creative views
+3,interior
+4,partial view
+5,sculptures
+6,cupola
+7,relics
+8,icon
+9,sky
+10,front view

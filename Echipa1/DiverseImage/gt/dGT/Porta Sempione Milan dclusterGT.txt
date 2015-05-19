@@ -1,0 +1,12 @@
+1,black and white
+2,front whole view
+3,partial view of the top
+4,sculpture details
+5,arch
+6,top view
+7,corner view
+8,view from the base
+9,foot view
+10,park view
+11,view of the site
+12,park close view

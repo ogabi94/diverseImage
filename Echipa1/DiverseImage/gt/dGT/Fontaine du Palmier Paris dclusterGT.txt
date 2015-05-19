@@ -1,0 +1,11 @@
+1,whole view 
+2,upper part of monument
+3,creative view 
+4,far view 
+5,obstructed view 
+6,partial view 
+7,black and white 
+8,bottom part of monument
+9,details 
+10,bottom part of fountain - darken
+11,partial far view 

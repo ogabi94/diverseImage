@@ -1,0 +1,10 @@
+1,building whole view from the field
+2,sunset view
+3,view from the flags
+4,creative views
+5,partial view
+6,inside view
+7,pool
+8,site plan
+9,entrance gate
+10,other details

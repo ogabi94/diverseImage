@@ -1,0 +1,14 @@
+1,whole view 
+2,creative view 
+3,night view 
+4,inside the castle night view 
+5,far night view 
+6,inside view 
+7,view to upper parts
+8,towers with clock
+9,side view 
+10,black and white 
+11,the castle's walls 
+12,inside the walls 
+13,details 
+14,sunset view 

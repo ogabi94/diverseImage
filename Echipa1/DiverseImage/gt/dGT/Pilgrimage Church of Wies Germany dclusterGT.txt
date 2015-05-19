@@ -1,0 +1,13 @@
+1,inside wall paintings
+2,inside entrance
+3,altar
+4,inside details
+5,plate
+6,outside partial view winter
+7,surroundings winter
+8,side view winter
+9,distant view winter
+10,side view with green grass
+11,organ
+12,details
+13,other

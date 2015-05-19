@@ -1,0 +1,20 @@
+1,interior arcades
+2,religious service
+3,black and white
+4,corner view front
+5,view from above
+6,creative views
+7,front view
+8,sunset view of the plaza
+9,perspective view of the city
+10,night view
+11,altar
+12,partial view
+13,obstructed view
+14,architectural details
+15,back view of the plaza
+16,celling
+17,winter view
+18,perspective of the plaza
+19,other
+20,other views

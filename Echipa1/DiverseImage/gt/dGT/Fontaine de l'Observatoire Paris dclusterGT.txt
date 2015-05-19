@@ -1,0 +1,8 @@
+1,whole view 
+2,creative view 
+3,creative angle
+4,horse statues 
+5,fish statues 
+6,top part of monument 
+7,close view 
+8,black and white 

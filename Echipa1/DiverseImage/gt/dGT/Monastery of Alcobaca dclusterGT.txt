@@ -1,0 +1,20 @@
+1,creative views
+2,archway inside
+3,floor plans and plates
+4,interior yard
+5,sculpture details
+6,bath
+7,fountain
+8,coffin
+9,inside arches
+10,outside architectural details
+11,virgin Maria
+12,gate
+13,angle view close
+14,front view
+15,partial view
+16,old facade
+17,night view
+18,ceramics
+19,other
+20,surroundings

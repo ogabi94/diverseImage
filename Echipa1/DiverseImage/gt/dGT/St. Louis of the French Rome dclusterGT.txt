@@ -1,0 +1,5 @@
+1,interior
+2,front view
+3,statue
+4,partial view entrance
+5,other

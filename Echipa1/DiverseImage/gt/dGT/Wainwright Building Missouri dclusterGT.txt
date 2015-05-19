@@ -1,0 +1,9 @@
+1,creative views
+2,sculpture details
+3,entrance
+4,plate
+5,corner view
+6,door details
+7,building partial view
+8,window details
+9,facade

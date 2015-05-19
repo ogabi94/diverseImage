@@ -1,0 +1,19 @@
+1,black and white
+2,front whole view
+3,creative views
+4,front view from distance
+5,corner view
+6,sunset view
+7,head
+8,top view
+9,Buddha details
+10,partial corner view
+11,partial front view
+12,interior
+13,flowers
+14,people looking close
+15,view of the plaza
+16,unfocused
+17,metal sculptures
+18,obstructed view
+19,other

@@ -1,0 +1,6 @@
+1,whole view 
+2,creative view 
+3,statues 
+4,details 
+5,inside view
+6,obelisk

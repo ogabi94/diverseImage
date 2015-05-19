@@ -1,0 +1,12 @@
+1,front view 
+2,tower
+3,side view 
+4,statue
+5,inside view 
+6,inside close up
+7,stained glass 
+8,inside details 
+9,outside details 
+10,creative view 
+11,partial view 
+12,black and white 

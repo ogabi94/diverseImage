@@ -1,0 +1,12 @@
+1,Gangaikonda Cholapuram
+2,Brihadeeswarar Temple
+3,Airavatesvara Temple
+4,creative view 
+5,architectural details 
+6,wall paintings
+7,other temples 
+8,obstructed view 
+9,close up
+10,partial view 
+11,entrance 
+12,objects 

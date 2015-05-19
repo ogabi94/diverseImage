@@ -1,0 +1,9 @@
+1,whole view 
+2,side view 
+3,statue
+4,view to the altar
+5,inside view 
+6,inside panorama
+7,details 
+8,close up
+9,reunion

@@ -1,0 +1,11 @@
+1,whole view 
+2,creative view 
+3,inside view 
+4,far view 
+5,outside details 
+6,the entrance 
+7,stained glass 
+8,inside details 
+9,inside arcades
+10,top view
+11,window of Baptistry

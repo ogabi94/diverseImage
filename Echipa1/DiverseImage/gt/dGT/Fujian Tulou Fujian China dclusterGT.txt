@@ -1,0 +1,13 @@
+1,upper view 
+2,surrounding waters 
+3,interior courtyard 
+4,collage
+5,creative view 
+6,round houses
+7,entrances
+8,details 
+9,obstructed view 
+10,roofs
+11,different houses 
+12,close up
+13,streets

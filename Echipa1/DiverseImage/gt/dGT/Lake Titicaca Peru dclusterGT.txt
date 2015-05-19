@@ -1,0 +1,12 @@
+1,straw village
+2,boats
+3,creative views
+4,information plate
+5,green water
+6,view from the hill
+7,horizon on water
+8,sunset view
+9,quay
+10,dark skyes
+11,reed
+12,city view from water

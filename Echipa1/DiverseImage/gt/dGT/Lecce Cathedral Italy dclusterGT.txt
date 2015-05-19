@@ -1,0 +1,9 @@
+1,stained window
+2,black and whide details
+3,front view
+4,night view
+5,balcony
+6,tower
+7,gate
+8,yard
+9,partial view

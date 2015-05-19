@@ -1,0 +1,15 @@
+1,front view 
+2,entrance
+3,inside view 
+4,side view 
+5,inside stairs
+6,creative view 
+7,details 
+8,rooms in museum
+9,furniture 
+10,close up on exhibition
+11,outside close up
+12,view from museum
+13,the bathroom
+14,artistic mirror
+15,lamps

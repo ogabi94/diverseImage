@@ -1,0 +1,8 @@
+1,whole view 
+2,top part of the column
+3,evening view 
+4,night view 
+5,creative view 
+6,obstructed view 
+7,far view 
+8,bottom part of column

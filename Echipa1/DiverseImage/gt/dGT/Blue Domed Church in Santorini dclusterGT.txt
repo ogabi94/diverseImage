@@ -1,0 +1,8 @@
+1,close view 
+2,creative view
+3,upper view 
+4,whole view 
+5,view from bottom of the church
+6,far view 
+7,close up
+8,perspective

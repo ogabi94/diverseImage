@@ -1,0 +1,13 @@
+1,stone sculpture details
+2,stone sculpture details yellow light
+3,front view
+4,creative views
+5,site view
+6,plate
+7,night view
+8,far view
+9,partial view
+10,gate
+11,statues outside
+12,ruins
+13,black and white

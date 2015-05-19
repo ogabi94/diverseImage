@@ -1,0 +1,17 @@
+1,monument view from the field
+2,creative views
+3,black and white
+4,gate view from the field
+5,statue 1
+6,interior
+7,winter views
+8,gates whole view
+9,gates with monument
+10,monument view
+11,gate details
+12,obelisk
+13,obelisk close
+14,other details
+15,statue 2
+16,rectangular buildings
+17,other views from the site

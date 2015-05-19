@@ -1,0 +1,19 @@
+1,whole view 
+2,partial view 
+3,view to the mountains 
+4,view from the balcony
+5,paintings 
+6,arcades
+7,sculptures
+8,night view 
+9,creative view 
+10,the porch
+11,entrance to the castle
+12,inside view
+13,inside courtyard
+14,details 
+15,close up 
+16,upper part of the castle 
+17,winter view
+18,wall paintings
+19,black and white

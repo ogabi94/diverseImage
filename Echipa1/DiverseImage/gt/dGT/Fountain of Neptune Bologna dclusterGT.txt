@@ -1,0 +1,10 @@
+1,whole view 
+2,night view 
+3,creative view 
+4,evening view 
+5,obstructed view 
+6,drawings 
+7,winter view 
+8,top part of the fountain
+9,bottom part of the fountain
+10,perspective

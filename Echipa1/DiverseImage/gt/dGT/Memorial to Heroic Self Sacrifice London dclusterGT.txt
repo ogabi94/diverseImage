@@ -1,0 +1,7 @@
+1,statue
+2,writing below the statue
+3,ceramic individual writings
+4,several writings
+5,view from the park
+6,distant view
+7,global view

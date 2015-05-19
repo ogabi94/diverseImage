@@ -1,0 +1,11 @@
+1,front view 
+2,side view 
+3,night view 
+4,obstructed view 
+5,the roof 
+6,far view
+7,inside view 
+8,creative view
+9,details 
+10,partial view 
+11,tower 

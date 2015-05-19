@@ -1,0 +1,10 @@
+1,circular stairs
+2,front view
+3,creative views
+4,view obstructed by trees 
+5,veranda
+6,restoration tools inside
+7,columns
+8,room
+9,tower
+10,other

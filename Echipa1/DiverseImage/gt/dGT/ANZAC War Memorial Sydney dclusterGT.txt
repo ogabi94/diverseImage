@@ -1,0 +1,20 @@
+1,whole front view 
+2,upper view 
+3,night view 
+4,creative view
+5,inside statue 
+6,inside details
+7,upper night view
+8,ceremony outside the memorial
+9,creative statue
+10,inside window
+11,side view 
+12,outside detials
+13,outside statues 
+14,view from the memorial
+15,partial view 
+16,obstructed view 
+17,water reflection
+18,colourful windows
+19,other
+20,black and white

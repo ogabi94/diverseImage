@@ -1,0 +1,8 @@
+1,whole view 
+2,obstructed view 
+3,creative view 
+4,bottom part of monument
+5,the statue only
+6,far obstructed view 
+7,back view 
+8,black and white

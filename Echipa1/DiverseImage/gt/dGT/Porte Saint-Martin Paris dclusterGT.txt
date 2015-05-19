@@ -1,0 +1,9 @@
+1,view between buildings
+2,whole view
+3,creative views
+4,whole view close
+5,view from arch
+6,corner view
+7,top partial view
+8,details
+9,corner view 2

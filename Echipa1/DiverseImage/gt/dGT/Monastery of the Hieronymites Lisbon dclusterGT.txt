@@ -1,0 +1,20 @@
+1,creative views
+2,ceramics
+3,wood church chairs
+4,interior yard
+5,front fountain
+6,inside statues
+7,inside view
+8,statues details
+9,writings and plates
+10,perspective view of the park
+11,archway corridor
+12,arches windows
+13,night view fountain
+14,dome
+15,along side view
+16,stained glass window
+17,architectural details
+18,entrance gate
+19,main dome
+20,two towers

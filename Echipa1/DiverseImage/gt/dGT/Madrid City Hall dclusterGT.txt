@@ -1,0 +1,18 @@
+1,front view
+2,creative views
+3,night view
+4,tower
+5,sunset view
+6,winter
+7,inside architecture
+8,partial front view
+9,roundabout
+10,side view
+11,partial front view
+12,veiw from top
+13,arcades
+14,ornaments
+15,glass cupola
+16,night tower view
+17,sunset obstructed view
+18,view from neighbour building

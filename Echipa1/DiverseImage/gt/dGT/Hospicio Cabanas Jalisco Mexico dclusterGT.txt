@@ -1,0 +1,16 @@
+1,front view 
+2,wall paintings 
+3,man of fire 
+4,arcades 
+5,night view 
+6,creative view 
+7,obstructed view
+8,back view 
+9,interior courtyard
+10,sunset view 
+11,details 
+12,close front view 
+13,far view 
+14,black and white 
+15,partial view 
+16,inside close up

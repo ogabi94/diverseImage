@@ -1,0 +1,4 @@
+1,front view
+2,corner partial view
+3,statue
+4,partial view tower

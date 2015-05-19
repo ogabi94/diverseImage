@@ -1,0 +1,17 @@
+1,whole winter view 
+2,view from inside the castle's walls
+3,creative view
+4,partial view 
+5,black and white
+6,far view 
+7,view from courtyard 
+8,decorating art objects
+9,inside stairs
+10,outside stairs
+11,partial view
+12,furniture
+13,the cross
+14,outside details 
+15,armour
+16,top view
+17,details

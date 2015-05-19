@@ -1,0 +1,20 @@
+1,creative views
+2,old views
+3,view of the Pisa tower alone
+4,Baptistry of St. John and  Duomo
+5,Duomo
+6,Baptistry alone
+7,Duomo partial view
+8,perspective
+9,information plate
+10,Pisa tower and Duomo
+11,view from above
+12,night views
+13,architectural details
+14,partial views
+15,other
+16,fences
+17,Baptistry top view
+18,inside yard
+19,gate
+20,Pisa tower view from city

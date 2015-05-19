@@ -1,0 +1,17 @@
+1,close view 
+2,obstructed view 
+3,far view 
+4,creative view 
+5,night view 
+6,inside view 
+7,details 
+8,view from the temple
+9,ceremony
+10,blurry night view
+11,upper view on the way to the temple
+12,people going to the temple
+13,close up
+14,evening view
+15,gate
+16,night panorama
+17,panorama

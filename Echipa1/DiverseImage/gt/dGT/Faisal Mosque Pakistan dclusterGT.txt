@@ -1,0 +1,18 @@
+1,whole view 
+2,far evening view 
+3,far day view 
+4,night view 
+5,far night view 
+6,inside view 
+7,creative view 
+8,obstructed view 
+9,evening view 
+10,partial view 
+11,night close up
+12,close up
+13,details 
+14,view from the mosque
+15,stairs to the mosque
+16,evening close up
+17,inside blurry view 
+18,black and white

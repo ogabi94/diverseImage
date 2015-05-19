@@ -1,0 +1,14 @@
+1,creative views
+2,old
+3,stairs and gate
+4,site map
+5,perspective view on surroundings
+6,gate details
+7,pyramidal buildings
+8,global perspective
+9,top view
+10,towards mountain
+11,other site views
+12,artefacts
+13,other details
+14,distant view

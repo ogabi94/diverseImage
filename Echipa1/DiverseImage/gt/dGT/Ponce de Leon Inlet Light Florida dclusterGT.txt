@@ -1,0 +1,11 @@
+1,lens
+2,creative views
+3,round stairs
+4,phare
+5,entrance
+6,sunset view
+7,night view
+8,daylight view
+9,partial view
+10,detail
+11,distant shot

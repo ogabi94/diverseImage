@@ -1,0 +1,12 @@
+1,whole view 
+2,upper view 
+3,view from the bottom of the waterfall
+4,view from airplane
+5,creative view 
+6,far view 
+7,close up - bottom part
+8,close up - top part
+9,black and white 
+10,very far view 
+11,far creative view 
+12,details 

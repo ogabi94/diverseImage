@@ -1,0 +1,20 @@
+1,arch with head statue
+2,stone arch
+3,stone walls
+4,indian head
+5,stone windows
+6,big face
+7,view from top towards small forest 
+8,view of the valley
+9,view of the ruins
+10,view of the sand mountains
+11,stone sign
+12,sketch map
+13,view of the hill ruins
+14,other site details
+15,towards the top
+16,view of the mountains
+17,mouintain view
+18,far view
+19,monument
+20,tree

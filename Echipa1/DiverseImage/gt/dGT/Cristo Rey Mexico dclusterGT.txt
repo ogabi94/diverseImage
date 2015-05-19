@@ -1,0 +1,4 @@
+1,whole view 
+2,far view 
+3,close view 
+4,view from the monument

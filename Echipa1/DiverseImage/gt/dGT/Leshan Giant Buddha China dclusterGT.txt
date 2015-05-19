@@ -1,0 +1,20 @@
+1,creative views
+2,fron whole Buddha view
+3,partial Buddha view
+4,Buddha's head
+5,black and white
+6,view from the water
+7,view from top towards water
+8,statues and sculptures
+9,source
+10,night view
+11,climbing stairs
+12,Buddha head and torso
+13,illustration
+14,structures in the forest
+15,signs
+16,plates
+17,access to the site
+18,big stone sculpture
+19,other
+20,candles

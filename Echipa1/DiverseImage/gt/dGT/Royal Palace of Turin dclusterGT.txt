@@ -1,0 +1,12 @@
+1,front view from the road
+2,night view
+3,front view from the plaza
+4,creative views
+5,view from top
+6,global view of the area
+7,inside view
+8,face plate
+9,statue
+10,inside hall
+11,inside statues
+12,obstructed view

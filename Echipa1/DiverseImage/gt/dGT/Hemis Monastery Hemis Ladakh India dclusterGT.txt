@@ -1,0 +1,16 @@
+1,inside view 
+2,wall paintings 
+3,architectural details 
+4,partial view 
+5,far view 
+6,monks at Hemis monastery
+7,creative view 
+8,close up
+9,upper view 
+10,Buddha
+11,obstructed view 
+12,details 
+13,different buildings in monastary
+14,ceremony
+15,monument
+16,houses on the hill

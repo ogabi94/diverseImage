@@ -1,0 +1,17 @@
+1,black and white
+2,whole view outside
+3,partial view
+4,creative views
+5,distant view
+6,drain details
+7,lightning detail
+8,outside details
+9,obstructed view
+10,inside view
+11,silver cross
+12,metal plate
+13,inside furniture details
+14,other details
+15,altar detail
+16,inside details
+17,gates

@@ -1,0 +1,16 @@
+1,whole corner view
+2,creative views
+3,side whole view 1
+4,sketches
+5,window details
+6,night view
+7,entrance
+8,side whole view 2
+9,partial view
+10,entrance gate
+11,obstructed view
+12,inside
+13,late evening view
+14,reflection
+15,rehabilitation
+16,side whole view 3

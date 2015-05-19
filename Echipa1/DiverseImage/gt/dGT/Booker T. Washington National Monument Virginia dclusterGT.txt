@@ -1,0 +1,6 @@
+1,whole view 
+2,inside view 
+3,creative view 
+4,view from the yard 
+5,details
+6,close up

@@ -1,0 +1,8 @@
+1,plate
+2,clock top view
+3,whole close view
+4,night view
+5,partial top view
+6,surroundings
+7,perspective
+8,with road signs

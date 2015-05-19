@@ -1,0 +1,16 @@
+1,front view
+2,creative views
+3,partial view from the pool
+4,front distance view
+5,pool
+6,view from the garden
+7,benches
+8,inside
+9,view from the pool
+10,view along the entrance
+11,side view
+12,details
+13,top view
+14,sunset
+15,night view
+16,others

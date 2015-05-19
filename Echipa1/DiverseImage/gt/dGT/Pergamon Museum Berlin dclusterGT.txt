@@ -1,0 +1,18 @@
+1,hall
+2,corner view
+3,creative views
+4,entrance
+5,painted faience on the walls
+6,artefacts
+7,wall sculptures
+8,miniature
+9,horse like sculpture
+10,small temple inside
+11,details
+12,night front view
+13,human statues inside
+14,wall statues details
+15,inside rooms
+16,back view
+17,other
+18,corner view

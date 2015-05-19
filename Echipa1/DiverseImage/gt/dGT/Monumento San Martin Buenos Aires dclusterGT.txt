@@ -1,0 +1,8 @@
+1,creative views
+2,base bronze sculptures
+3,whole view
+4,front view
+5,side view man on horse
+6,individual statues
+7,man on horse
+8,more statues

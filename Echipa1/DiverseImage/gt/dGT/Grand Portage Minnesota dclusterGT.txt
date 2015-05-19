@@ -1,0 +1,8 @@
+1,front view 
+2,inside view 
+3,surrounding waters 
+4,inside details 
+5,partial view 
+6,close up
+7,view from Gran Portage
+8,outside details 

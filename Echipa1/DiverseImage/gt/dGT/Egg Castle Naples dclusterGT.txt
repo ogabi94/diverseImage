@@ -1,0 +1,14 @@
+1,whole view 
+2,creative view 
+3,front view 
+4,waters surrounding the castle
+5,view from the castle 
+6,the castle's streets
+7,on top of the castle
+8,through the castle's windows
+9,buildings in the fortress
+10,details 
+11,inside view 
+12,close up - outside castle
+13,close up - inside castle
+14,black and white

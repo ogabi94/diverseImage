@@ -1,0 +1,16 @@
+1,front view 
+2,partial view 
+3,creative view 
+4,front close view 
+5,side view
+6,close up
+7,reconstructing
+8,creative upper view 
+9,night view 
+10,obstructed view 
+11,evening view
+12,black and white 
+13,statues
+14,at sunset
+15,details
+16,during protests

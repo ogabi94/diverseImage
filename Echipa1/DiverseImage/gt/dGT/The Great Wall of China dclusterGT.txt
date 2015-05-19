@@ -1,0 +1,20 @@
+1,creative views
+2,distant view of the mountains
+3,information plates
+4,hill view along the wall
+5,on the wall
+6,view on the city
+7,wall inside details
+8,wall outside details
+9,hill view 2
+10,house
+11,mountains
+12,view from above
+13,white rock
+14,details
+15,obstructed view
+16,side view of the hill
+17,other view 1
+18,other view 2
+19,other view 3
+20,distant view of the hills

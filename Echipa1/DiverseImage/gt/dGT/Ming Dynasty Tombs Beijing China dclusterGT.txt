@@ -1,0 +1,19 @@
+1,artefacts inside
+2,temple 1
+3,temple 2
+4,blonze statue
+5,writings
+6,small temple
+7,statues outside
+8,temple distant view
+9,details
+10,monument inside arch
+11,entrance gate
+12,red boxes
+13,potery
+14,alley
+15,sculptures 2
+16,drawings
+17,other
+18,creative views
+19,temple far top view

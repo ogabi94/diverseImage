@@ -1,0 +1,13 @@
+1,creative views
+2,statue details
+3,monument front view
+4,monument back view
+5,monument side view 1
+6,monument side view 2
+7,monument partial view
+8,square night view
+9,monument night view
+10,buildings
+11,petanque
+12,boulevard
+13,monument top view

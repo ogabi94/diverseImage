@@ -1,0 +1,12 @@
+1,front view Victoria Terminus 
+2,details 
+3,black and white 
+4,platforms 
+5,trains
+6,partial view 
+7,close up
+8,inside view
+9,obstructed view 
+10,entrance
+11,stairs to platform
+12,font

@@ -1,0 +1,11 @@
+1,whole view 
+2,partial view 
+3,side view 
+4,winter view
+5,the tower
+6,night view 
+7,creative view
+8,top statue 
+9,obstructed view 
+10,close up
+11,architectural details

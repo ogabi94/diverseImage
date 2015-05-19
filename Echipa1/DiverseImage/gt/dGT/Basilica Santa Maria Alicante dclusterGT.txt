@@ -1,0 +1,12 @@
+1,front view 
+2,partial view 
+3,creative view 
+4,inside view 
+5,the entrance 
+6,architectural details 
+7,inside details
+8,tower and bell
+9,close up
+10,black and white
+11,top
+12,bell

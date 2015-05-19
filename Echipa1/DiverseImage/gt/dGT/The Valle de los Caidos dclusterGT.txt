@@ -1,0 +1,20 @@
+1,black and white
+2,view of the region from air
+3,view of the base building
+4,columns
+5,inside hall
+6,front view with cross
+7,corss view
+8,other
+9,cross only
+10,cross on the mountain
+11,distant view of the cross
+12,winter view
+13,cross perspective view
+14,cross details
+15,view over the site
+16,view from the platform
+17,entrance partial view
+18,sculpture
+19,inside details
+20,gate

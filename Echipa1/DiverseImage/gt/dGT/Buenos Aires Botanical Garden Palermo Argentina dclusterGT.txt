@@ -1,0 +1,11 @@
+1,glass houses
+2,statues 
+3,entrance to the gardens  - building
+4,weather indicator
+5,Romulus and Remus statue 
+6,the lake 
+7,the cats 
+8,details
+9,different species 
+10,view from the gardens 
+11,feet

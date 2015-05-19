@@ -1,0 +1,14 @@
+1,whole view 
+2,on the bridge
+3,creative view 
+4,details 
+5,side view 1 
+6,side view 2
+7,night view 
+8,far view 
+9,under the bridge
+10,upper view 
+11,close up
+12,evening vew 
+13,middle
+14,view along

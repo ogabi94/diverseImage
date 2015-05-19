@@ -1,0 +1,10 @@
+1,primary Cathedral of Bogota
+2,national Capitol - close up
+3,national Capitol
+4,upper far view of square
+5,creative view 
+6,statue in the square 
+7,christmas tree in the square
+8,christmas scene in the square 
+9,details 
+10,colegio Mayor de San Bartolome

@@ -1,0 +1,10 @@
+1,whole view 
+2,details 
+3,creative view 
+4,the chapel
+5,cannons 
+6,inside view 
+7,partial view 
+8,entrance 
+9,black and white
+10,barracks

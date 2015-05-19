@@ -1,0 +1,13 @@
+1,front view
+2,top view
+3,creative views
+4,partial view front
+5,corner view
+6,night view
+7,interior view
+8,night lights
+9,front view distant shot
+10,sculptures
+11,road view
+12,people
+13,altar

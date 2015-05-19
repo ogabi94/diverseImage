@@ -1,0 +1,6 @@
+1,creative views
+2,sunset view
+3,night view
+4,gate
+5,amphi
+6,ruins

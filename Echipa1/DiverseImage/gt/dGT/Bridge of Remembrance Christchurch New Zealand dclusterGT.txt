@@ -1,0 +1,9 @@
+1,front view 
+2,evening view 
+3,side view
+4,obstructed view 
+5,view from the river
+6,partial view 
+7,details 
+8,the sculpture 
+9,creative view 

@@ -1,0 +1,13 @@
+1,whole back view 
+2,far view 
+3,creative view 
+4,black and white 
+5,stereo
+6,obstructed view 
+7,upper view 
+8,partial view
+9,close up
+10,view from inside
+11,circular walls 
+12,inside the circular walls 
+13,perspective

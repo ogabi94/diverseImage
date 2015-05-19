@@ -1,0 +1,6 @@
+1,side view
+2,black plate detail
+3,writing
+4,tomb view
+5,front view
+6,corner view

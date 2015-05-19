@@ -1,0 +1,7 @@
+1,over the hills
+2,castle
+3,grotte entrance
+4,rocks
+5,trees
+6,rocks and trees
+7,tree covered hill

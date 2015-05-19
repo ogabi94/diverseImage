@@ -1,0 +1,14 @@
+1,upper view 
+2,exploring inside the ruins
+3,creative view 
+4,exploring the ruins (outside)
+5,partial view 
+6,whole view 
+7,details 
+8,close up
+9,tunnels 
+10,stairs 
+11,view from the ruins
+12,black and white
+13,view from top of the ruins  
+14,inside exhibition

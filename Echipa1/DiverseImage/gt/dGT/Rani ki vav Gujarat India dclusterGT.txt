@@ -1,0 +1,8 @@
+1,pit view
+2,creative views
+3,pit view towards stairs
+4,side view
+5,sculpture details
+6,wall sculptures
+7,view 2
+8,temple like sculpture

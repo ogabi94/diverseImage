@@ -1,0 +1,13 @@
+1,whole view font
+2,creative views
+3,night view
+4,statues on top
+5,upper view
+6,details
+7,sunset view
+8,night partial view
+9,obstructed view
+10,side view 1
+11,side view 2
+12,distant view along the boulevard
+13,partial view

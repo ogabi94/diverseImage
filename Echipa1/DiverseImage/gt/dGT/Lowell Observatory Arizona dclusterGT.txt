@@ -1,0 +1,20 @@
+1,meteorite
+2,telescope and mechanism
+3,dome building 1
+4,creative views
+5,dome building 2
+6,dome building 3
+7,time table
+8,Percival Lowell plate
+9,dome building 4
+10,cylindrical building
+11,writings
+12,night view
+13,inside exponates
+14,lamp
+15,park
+16,cupola
+17,other
+18,white house
+19,dome in winter
+20,dome building 4

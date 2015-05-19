@@ -1,0 +1,3 @@
+1,whole view 
+2,close view
+3,the stone 

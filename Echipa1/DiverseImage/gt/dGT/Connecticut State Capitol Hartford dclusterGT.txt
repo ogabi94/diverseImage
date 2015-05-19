@@ -1,0 +1,19 @@
+1,creative view 
+2,front view 
+3,far view
+4,side view 
+5,inside statues 
+6,the ceiling
+7,the golden roof 
+8,partial view 
+9,outside statues 
+10,obstructed view 
+11,winter view 
+12,black and white 
+13,inside details 
+14,house of representatives Chamber
+15,inside close up
+16,outside close up
+17,other chambers
+18,outside details
+19,stained glass

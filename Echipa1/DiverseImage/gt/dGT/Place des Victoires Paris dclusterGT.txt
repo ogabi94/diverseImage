@@ -1,0 +1,15 @@
+1,statue night view
+2,monument base plate
+3,square view
+4,black and white
+5,building details
+6,statue side view close
+7,night red sky view
+8,statue front view
+9,top view dar skyes
+10,old style photos
+11,side views against building
+12,buildings night view
+13,other
+14,statue side view 2
+15,statue sunset view

@@ -1,0 +1,13 @@
+1,close details
+2,short metal column
+3,group of metal columnsa and buildings
+4,row
+5,distant view
+6,emblem
+7,metal columns and people passing
+8,creative view
+9,top X detail
+10,on the alley
+11,writings
+12,details on a few columns
+13,other

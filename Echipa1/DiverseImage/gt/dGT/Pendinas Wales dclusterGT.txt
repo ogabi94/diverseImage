@@ -1,0 +1,9 @@
+1,hill view from the river
+2,hill view from the plate
+3,whole view
+4,close view
+5,very distant view
+6,distant view
+7,black and white
+8,view from the bottom of the hill
+9,distant view from city

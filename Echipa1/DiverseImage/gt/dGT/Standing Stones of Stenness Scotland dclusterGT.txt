@@ -1,0 +1,18 @@
+1,information plate
+2,creative views
+3,two stones view
+4,field view
+5,sunset view
+6,field view 2
+7,winter view
+8,one stone close
+9,gravestone
+10,row view
+11,field view 2
+12,grass level view
+13,night view
+14,road
+15,details
+16,field view 3
+17,two stones looking like facing each other
+18,other views

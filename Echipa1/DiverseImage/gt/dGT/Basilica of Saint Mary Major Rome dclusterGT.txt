@@ -1,0 +1,20 @@
+1,front view 
+2,back view 
+3,the borghese chapel
+4,night view 
+5,creative view 
+6,reliquary of the Holy Crib
+7,inside view 
+8,columns in front or back of Basilica
+9,altar of Sistine Chapel and Oratory of the Nativity
+10,black and white 
+11,close up
+12,partial view 
+13,entrance 
+14,stained glass
+15,chapels 
+16,inside close up
+17,hallways
+18,floor details 
+19,art object
+20,facade

@@ -1,0 +1,13 @@
+1,creative views
+2,statues
+3,distant view from water
+4,winter
+5,top view
+6,whole view sunny day
+7,tower and house gray sky
+8,partial view
+9,architectural details
+10,view from the water
+11,two towers
+12,old tower
+13,other

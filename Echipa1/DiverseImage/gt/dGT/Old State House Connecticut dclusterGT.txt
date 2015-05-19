@@ -1,0 +1,9 @@
+1,old pictures
+2,corner whole view
+3,distant view
+4,corner view of columns
+5,corner view entrance with arches
+6,entrance
+7,clock tower
+8,front view columns
+9,other

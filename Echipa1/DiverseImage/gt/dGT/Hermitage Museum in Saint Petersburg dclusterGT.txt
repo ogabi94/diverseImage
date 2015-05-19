@@ -1,0 +1,20 @@
+1,winter palace
+2,old Herminage
+3,creative view 
+4,statues 
+5,the Pavilion Hall
+6,ancient stones 
+7,panorama
+8,busts 
+9,details 
+10,paintings 
+11,hallways
+12,inside view 
+13,winter museum - interior courtyard
+14,far view 
+15,night view 
+16,map of Museum
+17,ceilings
+18,art objects
+19,floor details 
+20,inside door

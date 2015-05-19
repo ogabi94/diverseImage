@@ -1,0 +1,16 @@
+1,projection
+2,gallery
+3,cross
+4,stone cross
+5,view of the entrance from outside
+6,wall sculpture
+7,projection wall close
+8,statues
+9,cross 2
+10,salt wall
+11,statues of indians
+12,view of the cave
+13,global view
+14,other details
+15,big cross
+16,wall sculptures
