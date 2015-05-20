@@ -3,7 +3,8 @@ import imageAttributes.ImageAttributes;
 
 public class MainApp {
 
-	public static ImageAttributes	imgAtt	=	new ImageAttributes( "F:/cursuri si seminarii/Ingineria Programarii/user01/Div400/devset/devsetkeywords" );
+	//public static ImageAttributes	imgAtt	=	new ImageAttributes( "F:/cursuri si seminarii/Ingineria Programarii/user01/Div400/devset/devsetkeywords" );
+	public static ImageAttributes	imgAtt	=	new ImageAttributes( "E:\\github_reps\\diverseImage\\images" );
 	
 	//"F:\\cursuri si seminarii\\Ingineria Programarii\\user01\\Div400\\devset\\devsetkeywords\\img",
 	//"F:\\cursuri si seminarii\\Ingineria Programarii\\user01\\Div400\\devset\\devsetkeywords\\descvis\\img"
