@@ -65,7 +65,7 @@ public class ResizeImgTest {
         
         if(expResult.getHeight()*expResult.getWidth()!=result.getHeight()*result.getWidth())
   
-            fail("The test case is a prototype.");
+            fail("nu s-a reusit sa se faca redimensionarea imaginii");
     }
     
        @Test
@@ -89,6 +89,6 @@ public class ResizeImgTest {
         
         if(result==expResult)
   
-            fail("Imaginea este nula");
+            fail("Imaginea nu ar trebui sa fie nula");
     }
 }

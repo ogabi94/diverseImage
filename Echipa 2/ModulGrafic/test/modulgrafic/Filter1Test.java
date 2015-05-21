@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import javafx.beans.binding.Bindings;
 import javax.imageio.ImageIO;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -88,9 +89,8 @@ public class Filter1Test {
         int result = instance.showDifference(resizeImageJpg,resizeImageJpg1);
         System.out.println(result);
        // assertEquals(expResult, result);
-        if (result < expResult) {
-            fail("Poza e deferita");
-        }
+        assertTrue( result >= expResult );
+        
     }
 
     
