@@ -115,8 +115,8 @@ public class Filter1Test {
         int result = instance.showDifference(im1,resizeImageJpg1);
         
        
-        if (result == expResult) {
-            fail("Poza e invalida sau nula");
+        if (result != expResult) {
+            fail("Poza trebuia sa fie nula");
         }
     }
 }
